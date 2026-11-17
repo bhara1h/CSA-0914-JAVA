@@ -66,6 +66,9 @@ Additional demonstrations: `parking.app.ConstructorDemo`, `parking.app.ObjectLif
 ## Verification
 Compiled with `javac 17.0.12`. The exact Task 03 and Task 08 outputs and the actual test-run console logs are saved under `outputs/`. `SystemTest` passes 12/12 scenarios; `DesignChallengeTest` passes 4/4. The workspace did not provide a desktop screenshot facility, so screenshots could not be captured; the text outputs are the reproducible execution evidence.
 
+## PDF report
+The complete 14-page report for Tasks 01-12 is available as [CSA-0914-JAVA-Assignment1-Report.pdf](CSA-0914-JAVA-Assignment1-Report.pdf).
+
 ## GitHub
 Repository link: `https://github.com/bhara1h/CSA-0914-JAVA`
 
