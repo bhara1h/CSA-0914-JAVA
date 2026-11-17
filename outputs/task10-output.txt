@@ -1,0 +1,4 @@
+﻿Primitive int: 5
+Wrapper Integer: 5
+Unboxed int: 5
+ArrayList-compatible value: 5
