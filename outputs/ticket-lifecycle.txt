@@ -1,0 +1,4 @@
+﻿First ticket: T000001
+Second ticket: T000002
+First ticket removed from service; local reference cleared.
+Garbage collection timing is managed by the JVM.
