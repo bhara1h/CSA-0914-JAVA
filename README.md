@@ -67,12 +67,12 @@ Additional demonstrations: `parking.app.ConstructorDemo`, `parking.app.ObjectLif
 Compiled with `javac 17.0.12`. The exact Task 03 and Task 08 outputs and the actual test-run console logs are saved under `outputs/`. `SystemTest` passes 12/12 scenarios; `DesignChallengeTest` passes 4/4. The workspace did not provide a desktop screenshot facility, so screenshots could not be captured; the text outputs are the reproducible execution evidence.
 
 ## GitHub
-Repository link: `https://github.com/<YOUR-USERNAME>/CSA09-YOUR_REGISTER_NUMBER-Assignment1`
+Repository link: `https://github.com/bhara1h/CSA-0914-JAVA`
 
 After replacing the student/register-number placeholders and creating a repository, upload with:
 
 ```powershell
-git remote add origin https://github.com/<YOUR-USERNAME>/CSA09-YOUR_REGISTER_NUMBER-Assignment1.git
+git remote add origin https://github.com/bhara1h/CSA-0914-JAVA.git
 git push -u origin main
 ```
 
