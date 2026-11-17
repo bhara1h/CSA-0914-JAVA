@@ -1,0 +1,14 @@
+﻿Test case | Expected output | Actual output | Status
+Two-wheeler entry and exit | fee=30.0; available=2 | fee=30.0; available=2 | PASS
+Car entry and exit | fee=90.0; available=1 | fee=90.0; available=1 | PASS
+Electric-car entry and exit | fee=210.0; available=1 | fee=210.0; available=1 | PASS
+Last available slot | ticket issued; available=0 | ticket issued; available=0 | PASS
+No available slot | No parking slot is available. | No parking slot is available. | PASS
+Zero-minute parking | 0.0 | 0.0 | PASS
+Fee slab boundary (60 / 61 minutes) | 90.0 / 180.0 | 90.0 / 180.0 | PASS
+Duplicate registration number | Vehicle is already parked: DUP01 | Vehicle is already parked: DUP01 | PASS
+Invalid slot number | Invalid floor or slot number. | Invalid floor or slot number. | PASS
+Invalid vehicle type | Invalid vehicle type: PLANE | Invalid vehicle type: PLANE | PASS
+Monthly pass | 0.0 | 0.0 | PASS
+Daily collection calculation | 120.0 | 120.0 | PASS
+Passed 12 of 12 tests.
