@@ -1,0 +1,4 @@
+﻿Default constructor: TwoWheeler UNKNOWN
+One-argument constructor: TwoWheeler TN10X1, owner=VISITOR
+Parameterized constructor: TwoWheeler TN11Y2, owner=STAFF
+Constructor order: Vehicle constructor runs before TwoWheeler body.
