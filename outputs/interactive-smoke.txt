@@ -1,0 +1,4 @@
+﻿Campus Smart-Parking System
+
+1. Vehicle entry  2. Vehicle exit  3. Availability  4. Daily collection  0. Quit
+Choose: Parking system closed.

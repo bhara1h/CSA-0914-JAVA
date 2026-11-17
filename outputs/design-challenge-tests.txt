@@ -1,0 +1,4 @@
+﻿E-bike flat fee | expected=25.0 | actual=25.0 | PASS
+Delivery van peak rate | expected=180.0 | actual=180.0 | PASS
+One-day visitor pass | expected=0.0 | actual=0.0 | PASS
+Five floors with uneven slot counts | expected=5 floors / 9 slots | actual=5 floors / 9 slots | PASS
