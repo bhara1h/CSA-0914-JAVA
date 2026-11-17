@@ -69,11 +69,12 @@ Compiled with `javac 17.0.12`. The exact Task 03 and Task 08 outputs and the act
 ## GitHub
 Repository link: `https://github.com/bhara1h/CSA-0914-JAVA`
 
-After replacing the student/register-number placeholders and creating a repository, upload with:
+The `origin` remote is configured for the repository above, and the `main` branch has been pushed. After replacing the student/register-number placeholders, future changes can be uploaded with:
 
 ```powershell
-git remote add origin https://github.com/bhara1h/CSA-0914-JAVA.git
+git add .
+git commit -m "Describe your change"
 git push -u origin main
 ```
 
-This workspace was not initially a Git repository. The taskwise local commits are prepared in this project folder; review `git log --oneline` before pushing.
+The assignment has separate commits for Tasks 01 through 12. Before creating additional commits, configure your own Git author name and email with `git config user.name` and `git config user.email`; the original local commits currently contain the provided register-number email placeholder.
