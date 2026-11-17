@@ -1,0 +1,4 @@
+﻿TwoWheeler TN01AA -> Rs 30.0
+Car TN02BB -> Rs 90.0
+ElectricCar TN03CC -> Rs 210.0
+Charging fee -> Rs 120.0
