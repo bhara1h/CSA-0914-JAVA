@@ -1,0 +1,5 @@
+﻿C:\Users\ASUS\Documents\java assignment\CSA-0914-JAVA\assignment 2\Q3\StudentCollectionsDemo.java:77: warning: [overrides] Class LegacyStudent overrides equals, but neither it nor any superclass overrides hashCode method
+    private static final class LegacyStudent {
+                         ^
+1 warning
+Compile status: PASS (javac -Xlint:all, Java 17.0.12)

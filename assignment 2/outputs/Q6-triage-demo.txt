@@ -1,0 +1,2 @@
+﻿Next patient: Meena(S1)
+Waiting count: 2

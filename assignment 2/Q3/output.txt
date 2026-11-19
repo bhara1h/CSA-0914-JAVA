@@ -1,0 +1,10 @@
+﻿Legacy equals-only HashSet size: 3 (incorrect; expected 2)
+Normal list scan found S101: true
+Duplicate scan matches for S101: 2
+Unique students: 2
+TreeSet students by registration: 2
+HashMap students by registration: 2
+HashMap lookup S102 found: true
+Mutable HashSet key found after regNo change: false
+Mutable HashSet key removable after regNo change: false
+Aa and BB hash collision: true; distinct students retained: 2

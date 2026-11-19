@@ -1,0 +1,17 @@
+﻿Medicine inventory benchmark
+Warmups per size/collection: 2; measured repetitions: 5
+Each mixed lookup trial: 100000 successful lookups
+Median mixed-lookup SLA: <= 100 ms per 100,000 lookups
+CSV: C:\Users\ASUS\Documents\java assignment\CSA-0914-JAVA\assignment 2\Q4\results.csv
+Sorted/insertion reports: C:\Users\ASUS\Documents\java assignment\CSA-0914-JAVA\assignment 2\Q4\Q4_inventory_reports.txt
+HashMap n=1000 median: put=89800 ns (89.8 ns/entry), get=7.8 ns/op, 100k lookups=1140200 ns (11.4 ns/op), iteration=28000 ns; SLA=PASS
+TreeMap n=1000 median: put=256800 ns (256.8 ns/entry), get=43.2 ns/op, 100k lookups=12026100 ns (120.3 ns/op), iteration=67500 ns; SLA=PASS
+LinkedHashMap n=1000 median: put=132300 ns (132.3 ns/entry), get=9.9 ns/op, 100k lookups=2033500 ns (20.3 ns/op), iteration=27600 ns; SLA=PASS
+HashMap n=10000 median: put=1118800 ns (111.9 ns/entry), get=11.7 ns/op, 100k lookups=2675200 ns (26.8 ns/op), iteration=144000 ns; SLA=PASS
+TreeMap n=10000 median: put=2830100 ns (283.0 ns/entry), get=73.8 ns/op, 100k lookups=21579400 ns (215.8 ns/op), iteration=432000 ns; SLA=PASS
+LinkedHashMap n=10000 median: put=1140000 ns (114.0 ns/entry), get=10.0 ns/op, 100k lookups=3664000 ns (36.6 ns/op), iteration=136100 ns; SLA=PASS
+HashMap n=100000 median: put=12773900 ns (127.7 ns/entry), get=3.4 ns/op, 100k lookups=6880200 ns (68.8 ns/op), iteration=3196100 ns; SLA=PASS
+TreeMap n=100000 median: put=61911300 ns (619.1 ns/entry), get=68.8 ns/op, 100k lookups=68419100 ns (684.2 ns/op), iteration=9001300 ns; SLA=PASS
+LinkedHashMap n=100000 median: put=14782000 ns (147.8 ns/entry), get=4.7 ns/op, 100k lookups=9403400 ns (94.0 ns/op), iteration=6503400 ns; SLA=PASS
+Recommendation: prefer HashMap for code-keyed inventory when sorted output is not required; use TreeMap when sorted-by-code reports are a primary requirement, or LinkedHashMap for insertion-order reports.
+sink=-222877467477000

@@ -1,0 +1,4 @@
+﻿Compile status: PASS (javac -Xlint:all, Java 17.0.12)
+Compile status: PASS (javac -Xlint:all, Java 17.0.12)
+Compile status: PASS (javac -Xlint:all, Java 17.0.12)
+Compile status: PASS (javac -Xlint:all, Java 17.0.12)

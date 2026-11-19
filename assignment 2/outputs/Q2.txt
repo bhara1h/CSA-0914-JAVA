@@ -1,0 +1,27 @@
+﻿Q2: playlist collection benchmark
+Warm-ups per case: 2; measured repeats: 5; source values are identical across collections.
+ArrayDeque middle edits use an auxiliary deque to preserve playlist order; kth access traverses from the nearer end.
+Initial sample: track-000000, track-000001, track-000002
+n=1000 append_end    | ArrayList 115.00 ns/op | LinkedList 125.00 ns/op | ArrayDeque 136.00 ns/op | ManualArray 205.00 ns/op
+n=1000 insert_front  | ArrayList 517.00 ns/op | LinkedList 230.00 ns/op | ArrayDeque 109.00 ns/op | ManualArray 144.00 ns/op
+n=1000 insert_middle | ArrayList 214.00 ns/op | LinkedList 1210.00 ns/op | ArrayDeque 20204.00 ns/op | ManualArray 248.00 ns/op
+n=1000 remove_front  | ArrayList 219.00 ns/op | LinkedList 200.00 ns/op | ArrayDeque 100.00 ns/op | ManualArray 144.00 ns/op
+n=1000 remove_middle | ArrayList 82.00 ns/op | LinkedList 923.00 ns/op | ArrayDeque 18393.00 ns/op | ManualArray 101.00 ns/op
+n=1000 kth_access    | ArrayList 18.00 ns/op | LinkedList 966.00 ns/op | ArrayDeque 5079.00 ns/op | ManualArray 12.00 ns/op
+n=1000 iteration     | ArrayList 8960.00 ns/op | LinkedList 10360.00 ns/op | ArrayDeque 7720.00 ns/op | ManualArray 3000.00 ns/op
+n=10000 append_end    | ArrayList 13.00 ns/op | LinkedList 16.00 ns/op | ArrayDeque 11.00 ns/op | ManualArray 27.00 ns/op
+n=10000 insert_front  | ArrayList 300.00 ns/op | LinkedList 25.00 ns/op | ArrayDeque 12.00 ns/op | ManualArray 285.00 ns/op
+n=10000 insert_middle | ArrayList 185.00 ns/op | LinkedList 9884.00 ns/op | ArrayDeque 197722.00 ns/op | ManualArray 264.00 ns/op
+n=10000 remove_front  | ArrayList 274.00 ns/op | LinkedList 16.00 ns/op | ArrayDeque 12.00 ns/op | ManualArray 262.00 ns/op
+n=10000 remove_middle | ArrayList 176.00 ns/op | LinkedList 9293.00 ns/op | ArrayDeque 218198.00 ns/op | ManualArray 219.00 ns/op
+n=10000 kth_access    | ArrayList 16.00 ns/op | LinkedList 9516.00 ns/op | ArrayDeque 42372.00 ns/op | ManualArray 6.00 ns/op
+n=10000 iteration     | ArrayList 117700.00 ns/op | LinkedList 162840.00 ns/op | ArrayDeque 133180.00 ns/op | ManualArray 63920.00 ns/op
+n=100000 append_end    | ArrayList 18.00 ns/op | LinkedList 28.00 ns/op | ArrayDeque 29.00 ns/op | ManualArray 16.00 ns/op
+n=100000 insert_front  | ArrayList 5564.00 ns/op | LinkedList 95.00 ns/op | ArrayDeque 16.00 ns/op | ManualArray 5604.00 ns/op
+n=100000 insert_middle | ArrayList 2677.00 ns/op | LinkedList 60266.00 ns/op | ArrayDeque 332041.00 ns/op | ManualArray 2676.00 ns/op
+n=100000 remove_front  | ArrayList 5204.00 ns/op | LinkedList 37.00 ns/op | ArrayDeque 12.00 ns/op | ManualArray 5219.00 ns/op
+n=100000 remove_middle | ArrayList 2634.00 ns/op | LinkedList 59655.00 ns/op | ArrayDeque 321799.00 ns/op | ManualArray 2668.00 ns/op
+n=100000 kth_access    | ArrayList 29.00 ns/op | LinkedList 62706.00 ns/op | ArrayDeque 69368.00 ns/op | ManualArray 20.00 ns/op
+n=100000 iteration     | ArrayList 468380.00 ns/op | LinkedList 728140.00 ns/op | ArrayDeque 410420.00 ns/op | ManualArray 950840.00 ns/op
+
+Raw measured results: outputs\Q2.csv (420 rows)

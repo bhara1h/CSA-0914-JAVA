@@ -1,0 +1,6 @@
+﻿[Eagles(9,6), Bisons(9,4), Panthers(9,4), Cobras(6,1)]
+Sorted leaderboard: [Eagles(9,6), Bisons(9,4), Panthers(9,4), Cobras(6,1)]
+Original insertion order: [Panthers(9,4), Cobras(6,1), Bisons(9,4), Eagles(9,6)]
+Points-only faulty comparator on a tied sample: [Panthers(9,4), Bisons(9,4)]
+Tie checks: name tie-break passed; exact ties remain stable.
+All Q5 checks passed.

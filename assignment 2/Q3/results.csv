@@ -1,0 +1,10 @@
+experiment,expected,actual,status
+Legacy equals-only HashSet,Duplicate registrations should be detected by equals,Legacy equals-only HashSet size: 3 (incorrect; expected 2),PASS-demonstrates-missing-hashCode
+Normal registration scan,S101 found,Normal list scan found S101: true,PASS
+Duplicate attendance scans,2 matching scans,Duplicate scan matches for S101: 2,PASS
+Corrected HashSet,Unique students: 2,Unique students: 2,PASS
+TreeSet with registration comparator,2 unique registrations,TreeSet students by registration: 2,PASS
+HashMap lookup,Registration S102 found,HashMap lookup S102 found: true,PASS
+Mutable hash key lookup,Changing hashed identity makes lookup unreliable,Mutable HashSet key found after regNo change: false,PASS-demonstrates-mutable-key-hazard
+Mutable hash key removal,Changing hashed identity makes removal unreliable,Mutable HashSet key removable after regNo change: false,PASS-demonstrates-mutable-key-hazard
+Hash collision handling,Aa and BB may collide but remain distinct,Aa and BB hash collision: true; distinct students retained: 2,PASS

@@ -1,0 +1,5 @@
+﻿Meena(S1) Kumar(S1) Lata(S2) Ravi(S3) John(S3) Asha(S5)
+Sorted LinkedList output: Meena(S1) Kumar(S1) Lata(S2) Ravi(S3) John(S3) Asha(S5)
+Five FIFO queues output: Meena(S1) Kumar(S1) Lata(S2) Ravi(S3) John(S3) Asha(S5)
+Eight-patient hand-check passed (including FIFO within severity).
+All Q6 checks passed.

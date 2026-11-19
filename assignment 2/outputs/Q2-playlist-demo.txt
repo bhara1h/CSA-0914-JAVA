@@ -1,0 +1,5 @@
+﻿After inserts: [Campus Radio, Blue Train, Evening Walk, Quiet Night]
+k-th song (index 2): Evening Walk
+Removed from front: Campus Radio
+Removed from middle: Evening Walk
+Final playlist: [Blue Train, Quiet Night]

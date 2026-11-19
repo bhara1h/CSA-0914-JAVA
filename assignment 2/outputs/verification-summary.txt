@@ -1,0 +1,12 @@
+Assignment 2 verification (Java 17.0.12)
+Compilation: Q1-Q7 passed javac -Xlint:all. Q3 has the expected intentional LegacyStudent equals-without-hashCode warning.
+Q1: 45 CSV data rows; output and consolidated CSV verified.
+Q2: 420 CSV data rows; output and consolidated CSV verified.
+Q3: 9 CSV data rows; output and consolidated CSV verified.
+Q4: 45 CSV data rows; output and consolidated CSV verified.
+Q5: 5 CSV data rows; output and consolidated CSV verified.
+Q6: 63 CSV data rows; output and consolidated CSV verified.
+Q7: 10 CSV data rows; output and consolidated CSV verified.
+Expected Q3/Q5/Q6 output checks: PASS; Q4 lookup SLA checks: 9/9 PASS.
+Q7 identical-content benchmark mean: String=28.922 ms; StringBuilder=3.921 ms; improvement=86.44%.
+Graphs: all five PNG files validated. Reports: Q1.md through Q7.md present.

@@ -1,0 +1,10 @@
+﻿PriorityQueue n=1000 admission=0.097 ms removal=0.123 ms
+Sorted LinkedList n=1000 admission=1.562 ms removal=0.037 ms
+Five FIFO queues n=1000 admission=0.086 ms removal=0.114 ms
+PriorityQueue n=10000 admission=0.287 ms removal=0.882 ms
+Sorted LinkedList n=10000 admission=1.377 ms removal=0.067 ms
+Five FIFO queues n=10000 admission=0.127 ms removal=0.105 ms
+PriorityQueue n=100000 admission=2.469 ms removal=8.595 ms
+Sorted LinkedList n=100000 admission=14.018 ms removal=0.554 ms
+Five FIFO queues n=100000 admission=1.360 ms removal=0.858 ms
+CSV written to C:\Users\ASUS\Documents\java assignment\CSA-0914-JAVA\assignment 2\Q6\results.csv

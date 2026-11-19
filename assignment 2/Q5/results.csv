@@ -1,0 +1,6 @@
+test,expected,actual,status
+Required ranking,"[Eagles(9,6), Bisons(9,4), Panthers(9,4), Cobras(6,1)]","[Eagles(9,6), Bisons(9,4), Panthers(9,4), Cobras(6,1)]",PASS
+Original list unchanged,"[Panthers(9,4), Cobras(6,1), Bisons(9,4), Eagles(9,6)]","[Panthers(9,4), Cobras(6,1), Bisons(9,4), Eagles(9,6)]",PASS
+Points and goal-difference tie,Alphabetical team name,"[Eagles(9,6), Bisons(9,4), Panthers(9,4), Cobras(6,1)]",PASS
+Exact tie stability,Original order remains stable,"Tie checks: name tie-break passed; exact ties remain stable.",PASS
+Faulty comparator,Points-only order does not resolve goal-difference/name ties,"Points-only faulty comparator on a tied sample: [Panthers(9,4), Bisons(9,4)]",PASS-demonstrates-faulty-comparator

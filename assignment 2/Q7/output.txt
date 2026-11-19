@@ -1,9 +1,10 @@
-Design challenge: build 10000 tickets with 50 fields each.
+﻿Design challenge: build 10000 tickets with 50 fields each.
 Warm-ups per implementation: 2
 Measured repetitions: 5
-String concatenation average: 28.746 ms
-StringBuilder average: 4.271 ms
-Measured time improvement: 85.14%
+String concatenation average: 28.922 ms
+StringBuilder average: 3.921 ms
+Measured time improvement: 86.44%
 Operations per measured run: 500000 field appends per implementation
 Correctness: direct ticket strings were compared and are identical.
 Memory samples are before/after used-heap snapshots; GC can reclaim objects between snapshots.
+Raw measurements: Q7/results.csv
