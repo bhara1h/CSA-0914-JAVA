@@ -1,0 +1,11 @@
+Test Case,Input,Expected Output,Actual Output,Status
+1 Valid withdrawal,Account 12345; 500,Successful withdrawal; remaining balance 4500.00,Withdrawal successful. Remaining balance: 4500.00,PASS
+2 Negative amount,Account 12345; -100,Error: Withdrawal amount cannot be negative,Error: Withdrawal amount cannot be negative,PASS
+3 Insufficient balance,Account 67890; 1001,Insufficient balance error,ATMTest caught InsufficientBalanceException,PASS
+4 Invalid text,Account 12345; abc,Invalid text input error,Scanner.hasNextDouble() rejected abc,PASS
+5 Missing account file,Missing temp file path,Could not read or update account file,ATMTest caught IOException,PASS
+6 Unknown account,Account 99999; 100,Account number not found,ATMTest caught IOException,PASS
+7 Boundary exact balance,Account 67890; 1000,Successful withdrawal; remaining 0.00,ATMTest PASS: exact balance withdrawal,PASS
+8 Boundary over by one,Account 67890; 1001,Insufficient balance error,ATMTest insufficient case,PASS
+9 Zero withdrawal,Account 12345; 0,Successful withdrawal; balance unchanged,ATMTest PASS: zero withdrawal,PASS
+10 Invalid balance text,Account 12345; invalid numeric file text,Invalid numeric balance error,ATMTest caught NumberFormatException,PASS

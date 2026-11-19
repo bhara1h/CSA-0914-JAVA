@@ -1,0 +1,29 @@
+Q1 - ATM Exception Handling
+Execution date: 2026-11-20
+Java version: JDK 17.0.12
+
+Compilation:
+javac *.java
+Result: PASS
+
+ATMTest execution:
+PASS: successful withdrawal
+PASS: exact balance withdrawal
+PASS: zero withdrawal
+PASS: negative amount
+PASS: insufficient balance
+PASS: missing file
+PASS: unknown account
+PASS: invalid balance text
+PASS: invalid text input
+
+Interactive valid-input execution:
+Enter account number: Enter withdrawal amount: Withdrawal successful. Remaining balance: 4500.00
+Finally: ATM attempt completed.
+Result: PASS
+
+Interactive negative-input execution:
+Enter account number: Enter withdrawal amount: Error: Withdrawal amount cannot be negative.
+Finally: ATM attempt completed.
+Result: PASS
+
