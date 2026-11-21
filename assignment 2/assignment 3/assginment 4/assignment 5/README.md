@@ -54,4 +54,5 @@ Task 2 compile, run, and complexity instructions are in
   `Task02_Buffering/results/buffering_results.csv`.
 - Database setup and JDBC benchmark results are pending their implementation
   tasks and local MySQL configuration.
+- Interim report: [CSA09 Assignment 5 report PDF](./report/CSA09_Assignment5_Report.pdf).
 - GitHub repository: [Add repository URL]

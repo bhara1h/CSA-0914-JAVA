@@ -1,0 +1,2 @@
+*.pdf binary
+Task02_Buffering/data/test_files/*.txt -text
